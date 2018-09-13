@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.xq-banner{ height: 400px; position: relative; }
+.xq-banner .logo{ width: 1150px; height: 180px; position: absolute; left: 30px; bottom: 30px; }
+.xq-banner .logo img{ width: 180px; height: 180px; }
+.xq-banner .logo p{ font-size: 30px; color: #FFFFFF;  position: absolute; left: 200px; bottom: 0; }
+
+.info-text .name{ margin-bottom: 20px; position: relative;}
+.info-text .name .p1{ font-size: 30px; line-height: 42px; margin-right: 150px;}
+.info-text .name .button{ position: absolute; right: 0; top: 0; }
+
+.info-text .text{ background: #FFFFFF;padding: 20px; position: relative; }
+.info-text .text p{ line-height: 25px; margin-bottom: 10px; text-align: justify; }
+.info-text .text .text-inner{ height: 250px; overflow: hidden; margin-bottom: 30px;}
+.info-text .text .plus-btn{ color: #0092dd; cursor: pointer; position: absolute; right: 20px; bottom: 15px; }
+
+.xq-index .map-info{ padding: 20px;}
+.xq-index .map-info .map-left{ width: 460px; float: left; }
+.xq-index .map-info .map-left p{ margin-top: 10px; }
+.xq-index .map-info .iconfont{ color: #0092dd; margin-right: 5px;}
+.xq-index .map-info .text-right{ width: 660px; float: left;}
+.xq-index .map-info .text-right p{ line-height: 35px; }
+.xq-index .map-info .text-right p span{ display: inline-block; width: 120px; }
+
+
+.xq-index .map-info .text-right1{ width: 660px; float: left;}
+.xq-index .map-info .text-right1 p{ line-height: 35px; }
+.xq-index .map-info .text-right1 p span{ display: inline-block; width: 120px; }
+
+.xq-index .xq-block{ padding: 0 20px 20px 20px; background: #FFFFFF; margin-top: 20px;}
+.xq-index .xq-block .title{ line-height: 45px; border-bottom: 1px #efefef solid;}
+.xq-index .xq-block .agent-block{  margin-top: 20px; text-align: center;}
+
+.school-scenery .wc1200{ width: 1160px; background: none; padding: 0; margin-top: 20px;}
+.school-scenery .rowE .count li{ width: 200px!important; height: 200px!important; margin-right: 0; margin-left: 20px;}
+.school-scenery .rowE .count li img{ width: 200px; height: 200px; cursor: zoom-in;}
+.school-scenery .rowE .warp-pic-list{ width: 1160px!important; height: 200px!important; background: none;}
+.school-scenery .rowE .btn{ top: 72px;}
+
+.select-block .s-row span{display: inline-block; margin-right: 30px;position: relative; }
+.select-block .s-row  select{ display: inline-block; line-height: 30px; min-width: 200px; padding: 10px; border:1px #ddd solid;     border-radius: 2px; }
+.select-block .s-row .s2 .clear-input{ height: 37px; }
+.select-block .s-row .s2 .icon-sousuo-sousuo{  color: #0092dd; position: absolute; right: 14px; top: 10px; }
+.select-block .s-row1{ }
+.select-block .s-row1 span{ display: inline-block; margin-right: 20px; line-height: 37px; border: 1px #ddd solid;    border-radius: 2px;
+padding: 0 10px; background: #FFFFFF; cursor: pointer;}
+.select-block .s-row1 .active{ background: #ffb149; color: #FFFFFF;}
+
+.k-list .xq-block{ border-top: 4px #ddd solid;}
+.k-list .xq-block .title{ color: #0092dd; }
+.k-list .xq-block .info-s{ margin-top: 20px;}
+.k-list .xq-block .info-s p{ width: 33.3%; float: left; height: 25px; line-height: 25px; overflow: hidden; margin-bottom: 20px; }
+.k-list .xq-block .info-s p .iconfont{ color: #0092dd; margin-right: 5px; }
+.k-list .xq-block .button{  float: right;}
+
+.alert-img{ position: relative; z-index: 990; position: fixed; left: 0; top: 0; width: 100%; height: 100%; }
+.alert-img .mask{ position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: #0092dd; opacity: 0.3;}
+.alert-img{ text-align: center; line-height: 1;}
+.alert-img img{ position: absolute; width: 400px; left: 50%; top: 50%; z-index:991; margin-left: -200px;
+ margin-top: -200px;  cursor: zoom-out; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

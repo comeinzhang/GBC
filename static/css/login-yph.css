@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.page-warp .head-bar{ background: none;}
+
+.login-index .dsfdl{ margin-top: 50px; color: #fe6345; text-align: center;}
+.login-index .dsfdl .p1{ line-height: 25px; position: relative; }
+.login-index .dsfdl .p1:after{ display: block; content: ''; width: 50px; height: 1px; border-top: 1px #fe6345 solid;
+ position: absolute; left: 50%; margin-left: 50px; top: 13px;}
+.login-index .dsfdl .p1:before{ display: block; content: ''; width: 50px; height: 1px; border-top: 1px #fe6345 solid;
+ position: absolute; right: 50%; margin-right: 50px; top: 13px;}
+
+.login-index .dsfdl img{ width: 45px; margin-top: 20px; }
+.login-index .dsfdl a{  display: inline-block; margin: 0 20px; }
+
+.login-index .row-ghxy{ margin-top: 15px;}
+.login-index .row-ghxy i{ font-size: 14px;}
+
+.login-index .top-tab{ height: 66px; margin: 50px 50px 0 50px; }
+.login-index .top-tab .d1{ width: 50%; float: left; text-align: center; }
+.login-index .top-tab .d1 .p1{ display: inline-block; padding: 8px 15px;border-radius: 18px; font-size: 16px }
+.login-index .top-tab .d1 .p2{ display: none; }
+.login-index .top-tab .d1 .p2 img{ width: 20px;  }
+.login-index .top-tab .active .p1{ background: #fe6345; color: #ffffff;  }
+.login-index .top-tab .active .p2{ display: block }
+.login-index .info-box { width: 80%; margin: 0 auto; }
+.login-index .info-box .group-input{ background: #ffffff; border-radius: 10px;}
+.login-index .info-box .group-input .item{ height: 50px; padding: 0 10px; border-bottom: 1px #EFEFEF solid; position: relative; }
+.login-index .info-box .group-input .item .d1{ line-height: 50px; position: absolute; right: 10px; top: 0; }
+.login-index .info-box .group-input .item .get-yam{ height: 30px; padding: 0 15px; line-height: 30px; background: #fe6345;
+border-radius: 8px; color: #fff; position: absolute; right: 10px; top: 10px;}
+.login-index .info-box .group-input .item .getIng{ background: #c6c6c6; }
+.login-index .info-box .group-input .item:last-child{  border-bottom: 0; }
+.login-index .info-box .submit{ width: 80px; margin: 30px auto 0 auto; }
+.login-index .info-box .submit img{width: 80px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

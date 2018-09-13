@@ -1,0 +1,71 @@
+body{ background: #f1f1f1;}
+.page-warp{ margin-bottom: 50px; padding-top: 0;}
+.fax-index{ padding-top: 45px; }
+.g-list .goods-box{ margin-bottom: 0;}
+.g-list .goods-box .content{ border-top: 1px #efefef solid;    margin-bottom: 0;}
+.g-list .goods-box .content .pic{ width: 64px; height: 64px; left: 15px; overflow: hidden; }
+.g-list .goods-box .content .pic img{ width: 100%;}
+.g-list .goods-box .content .text{ margin-left: 75px;  height: 64px;}
+.g-list .goods-box .content .text .name{ font-size: 16px; padding-bottom: 2px;}
+.g-list .goods-box .content .text .ll{ line-height: 22px;  position: absolute; right: 0; top: 0; color: #999}
+.g-list .goods-box .content .text .jl{ position: absolute; right: 0; bottom: 0; color: #999}
+.g-list .goods-box .content .text .xx{  color: #999;}
+.g-list .goods-box .content .text .xx i{ color: #fab52f; margin-right: 5px;}
+.fax-index .xd-b .t{ line-height: 40px; position: relative; background: #fff;}
+.fax-index .xd-b .t .p1 img{ margin-left: 15px; height: 25px; }
+.fax-index .xd-b .t .s1{  position: absolute; right: 15px; bottom: 0; line-height: 30px; bottom: 0;
+ font-size: 12px;}
+.fax-index .fj-b .ppt{ margin: 10px 0 0 0 }
+.page-warp .head-bar .search-box{ margin-left: 15px;}
+.page-warp .head-bar .search-box2{ margin-left: 45px;}
+.page-warp .head-bar .t-bar .btn-al, .page-warp .head-bar .t-bar .btn-ar { position: absolute; width: 45px; height: 45px; top: 0; text-align: center;
+    line-height: 45px; color: #696969; }
+.page-warp .head-bar .t-bar .btn-al2{ right: 0;}
+.page-warp .head-bar{ background: none; }
+.page-warp .head-bar .mak{ position: absolute; width: 100%; height: 45px; background: #050505; opacity: 0.1;  }
+
+.ad-nav{ border-top:1px #e6e6e6 solid; padding: 10px 0 5px 0; }
+.ad-nav a{ padding:0; margin-bottom: 5px; width: 20%;}
+.ad-nav a img{ width: 40px; }
+.sy-index{}
+.sy-index .rm-block .t{ margin-top: 5px; background: #fff; padding-left: 15px; position: relative;}
+.sy-index .rm-block .t .i1{ height: 40px; }
+.sy-index .rm-block .t .a1{ position: absolute; font-size: 13px; right: 15px; color: #ff6c32; bottom: 5px; }
+.sy-index .rm-block .link img{ width: 100%; margin-top: 5px; }
+.sy-index .rm-block .link2 .a{ width: 50%; float: left; margin-top: 5px; }
+.sy-index .rm-block .link2 .a a{display: block; }
+.sy-index .rm-block .link2 .a1 a{ margin-right: 2px; }
+.sy-index .rm-block .link2 .a2 a{ margin-left: 2px; }
+.sy-index .rm-block .link2 .a a img{ width: 100%; }
+.sy-index .ppt{ color: #ff72b4; margin-top: 5px;}
+
+.fllb-index .slider-tab{ width: 100%; overflow-x: auto; overflow-y: hidden;  position: fixed;
+left: 0; top: 45px; z-index: 9; background: #ffffff; -webkit-overflow-scrolling: touch;}
+.fllb-index .slider-tab .slid{  overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; padding: 8px 0;}
+.fllb-index .slider-tab .p-warp{ width: 300%; font-size: 0; }
+.fllb-index .slider-tab .p-warp p{ display: inline-block; margin: 0 10px; font-size: 14px; }
+.fllb-index .slider-tab .p-warp .active{ border-bottom: 2px #fe6345 solid; }
+.fllb-index .goods-link{ margin-top: 45px;}
+
+.sy-index .slide:after{ padding-top: 49%;}
+.sy-index .t-list{ }
+.sy-index .t-list .row{ padding:10px; margin: 5px; background: #ffffff; position: relative; }
+.sy-index .t-list .row .addCart{ width: 35px; position: absolute; right: 20px; bottom: 20px; transition: all 0.3s; }
+.sy-index .t-list .row .addCart:active{transform: scale(1.1); }
+.sy-index .t-list .row .addCart img{ width: 100%; }
+.sy-index .t-list .row a{ display: block; position: relative; height: 120px;}
+.sy-index .t-list .row a .pic{ width: 120px; height: 120px; position: absolute; left: 0; top: 0; overflow: hidden; }
+.sy-index .t-list .row a .pic img{ width: 100%;}
+.sy-index .t-list .row a .pic .iw{ width: 20px; height: auto; position: absolute; left: 0;top: 0; }
+.sy-index .t-list .row a .text{ margin-left: 130px; position: relative; height: 100px; }
+.sy-index .t-list .row a .text .name{ height: 38px; overflow: hidden; }
+.sy-index .t-list .row a .text .num{ font-size: 10px; color: #999999; margin-top: 5px; }
+.sy-index .t-list .row a .text .price{ font-size: 18px; color: #ff7f7f; }
+.sy-index .t-list .row a .text .price2{ text-decoration: line-through;  color: #999999;}
+.sy-index .t-list .row a .text .price span{ font-size: 18px; }
+.page-warp .ppt{ margin: 5px 0;}
+
+
+
+
+

@@ -1,0 +1,67 @@
+
+.index_slider .slide:after{ padding-top:55.6%;  }
+.index_slider .slide .dot{ bottom: 5px;  }
+.index_slider:after{ padding-top: 55.6%;/*图片的高除以图片的宽*/}
+.slide .dot span{
+    display: inline-block;
+    width: 20px;
+    height: 3px;
+    margin-left: 5px;
+    background: #FFFFFF;
+    opacity: 0.5;
+    border-radius: inherit;
+    border: 0;
+}
+.slide .dot .cur{
+    background: #FFFFFF;
+    opacity: 1;
+}
+input[type="submit"],input[type="button"],input[type="text"],textarea,input[type="password"],input[type="tel"]{-webkit-appearance:none}
+
+.fjsj-index{ margin-top: 46px;}
+.fjsj-index .top-tab{ height: 35px; border-radius: 5px; position: relative; margin: 15px; border: 1px #fe0000 solid; }
+.fjsj-index .top-tab .tab-link-box{  height: 35px; width: 50%; float: left; }
+.fjsj-index .top-tab .tab-link-box .t-t{  line-height: 35px; text-align: center; color: #fe0000 }
+.fjsj-index .top-tab .tab-link-box .active{  background: #FE0000; color: #fff }
+.fjsj-index .top-tab .content-t{ width: 100%; position: absolute; left: 0; top: 36px; background: #fff;  text-align: center;
+padding: 15px 0; border-radius: 0 0 5px 5px; display: none; z-index: 2; border: 1px #EFEFEF solid;}
+.fjsj-index .top-tab .city-picker-select{ height: auto; }
+.fjsj-index .top-tab select{ width: 30%; display: block;  margin:0 1.65%; float: left;}
+.fjsj-index .top-tab .tab-link-box .button{  line-height: 35px; background: #FE0000; width: 100px; text-align: center; color: #fff;
+ margin:  15px auto 0 auto; border-radius: 5px; }
+.fjsj-index .top-tab .search-box{  margin: 0 15px; }
+.fjsj-index .top-tab .search-box input{ height: 35px; width: 99%; padding-left: 1%; border: 1px #EFEFEF solid;}
+.fjsj-index .sj-list li { display: block; height: 100px; background: #fff; padding: 10px; border-top: 1px #EFEFEF solid; }
+.fjsj-index .sj-list li img{ width: 100px; height: 100px; float: left; margin-right: 10px; border-radius: 5px;
+box-shadow: 2px 2px 3px #ccc; }
+.fjsj-index .sj-list li  .text .p1{ font-size: 16px; }
+.fjsj-index .sj-list li .text .p2{ color: #999999;margin-top: 15px;}
+.fjsj-index .sj-list li .text .p2 span{ display: inline-block; border:1px #ddd solid; margin-right: 5px;  padding: 3px 5px;
+ border-radius: 3px; margin-top: 5px;font-size:12px; }
+.fjsj-index .sj-list li .text .p3{ color: #999999; margin-top: 15px; position: relative; font-size: 12px; }
+.fjsj-index .sj-list li .text .p3 .s1{ background: #e60111; color: #FFFFFF; padding: 0 5px; position: absolute; right: 0; top: 0;
+ line-height: 25px; border-radius: 5px; font-size: 14px;}
+ .fjsj-index .sj-list li .text .p3 .s1 a{color: #FFFFFF;}
+.fjsj-index .top-tab2{ background: #FFFFFF; padding: 10px; margin-top: 10px;}
+.fjsj-index .top-tab2 .tab-link-box{ height: 35px; line-height: 35px; border-bottom: 1px #999999 solid; }
+.fjsj-index .top-tab2 .tab-link-box .t-t{  width: 50%; float: left; text-align: center; font-size: 16px;}
+.fjsj-index .top-tab2 .tab-link-box .active{ border-bottom: 1px #E50010 solid;color: #E50010; }
+.fjsj-index .top-tab2 .city-picker-select{ margin: 15px 0; }
+.fjsj-index .top-tab2 .city-picker-select select{ width: 30%; display: block;  margin:0 1.65%; float: left;border: 1px #ddd solid;}
+.fjsj-index .top-tab2 .button{ height: 40px; background: linear-gradient(to bottom, #ee7d80 , #e60111);  border-radius: 6px; color: #FFFFFF; text-align: center;
+line-height: 40px;}
+.fjsj-index .top-tab2 .search-box{ margin: 15px 0; border: 1px #ddd solid; border-radius: 6px; }
+.fjsj-index .top-tab2 .sc{ display: block; width: 98%; height: 35px; padding-left: 2%; background: none; border: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+

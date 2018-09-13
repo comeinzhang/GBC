@@ -1,0 +1,76 @@
+@charset "utf-8";
+.details-img-block .t-btn{ background: #FFFFFF; height: 45px; font-size: 16px; color: #777777; padding: 0 15px; line-height: 45px; position: relative;}
+.details-img-block .t-btn .p2{ position: absolute; top: 0; right: 15px; color: #74A92D; }
+.details-img-block .ip-text{ margin: 10px 0; }
+.details-img-block .ip-text .warp{ background: #FFFFFF;  }
+.details-img-block .ip-text .warp .fo{ padding: 15px;}
+.details-img-block .ip-text .warp .fo textarea{display: block; width: 100%; height: 100px; font-size: 15px; border: none; background: none;}
+.details-img-block .ip-text .warp .add-img{ margin-top: 10px; padding: 15px;}
+.details-img-block .ip-text .warp .add-img .img{  width: 24%; float: left; background: #eaeaea; margin: 0.5%; }
+.details-img-block .ip-text .warp .add-img .img .warp-img{ width: 100%; height: 0; padding-bottom: 100%; position: relative; overflow: hidden;  }
+.details-img-block .ip-text .warp .add-img .img .add-btn{ width: 100%; color: #999999; text-align: center;
+    margin-left: 50%; margin-top: 50%; transform: translate(-50%,-50%); position: absolute;z-index: 1;}
+.details-img-block .ip-text .warp .add-img .img .add-btn i{ font-size: 30px;}
+.details-img-block .ip-text .warp .add-img .img .upload_file{ display: block; width: 100%; height: 100%; z-index: 3; position: absolute; opacity: 0;}
+.details-img-block .ip-text .warp .add-img .img .warp-img img{ width: 100%;  margin-left: 50%;  margin-top: 50%; transform: translate(-50%,-50%);}
+.details-img-block .ip-text .warp .add-img .img .warp-img .icon-cha1{ display: block; position: absolute; left: 0; top: 0; background: #FFFFFF; border-radius: 50%; overflow: hidden;}
+.details-img-block .ip-text .warp .rz{ line-height: 45px; margin-left: 15px; border-top: 1px #efefef solid; position: relative;}
+.details-img-block .ip-text .warp .rz .p2{ position: absolute; right: 15px; top: 0; color: #0a8ddf; z-index: 2; }
+.details-img-block .ip-text .warp .rz .p3{ width: 100%; height: 100%; position: absolute; right: 0; top: 0;  z-index: 3; opacity: 0; }
+.details-img-block .p4{ line-height: 30px; color: #777777; text-align: right;}
+.details-img-block .p4 a{  color: #0a8ddf;}
+
+.ui-set-list{ background: #FFFFFF; margin: 15px 0;}
+.ui-set-list .row{ border-bottom: 1px #eaeaea solid; }
+.ui-set-list .warp{ height: 45px; position: relative; margin: 0 15px; }
+.ui-set-list .warp .name{ line-height: 45px; position: absolute;left: 0; top: 0; }
+.ui-set-list .warp .ip,
+.ui-set-list .warp .tx-1{ margin-left: 85px; position: relative;}
+.ui-set-list .warp .p1{ line-height: 45px; }
+.ui-set-list .warp .ico{ position: absolute; right: 0; top: 0; }
+.ui-set-list .warp .clearIP{ height: 45px; color: #0a8ddf; }
+.ui-set-list .warp .onoffswitch{ position: relative; top: 9px;}
+
+.ti-block{ position: fixed; width: 100%; height: auto; padding: 20px 0; bottom: 0; left:0;background: #FFFFFF; z-index: 9999999999;}
+.ti-block .close-ti-alert{ position: absolute; right: 5px; top: 5px; }
+.ti-block .title{ margin-top: 10px; padding: 0 15px; color: #0a8ddf; }
+.ti-block .links{ margin-top: 10px; border-bottom: 1px #EAEAEA dashed; padding: 10px; }
+.ti-block .links p{ width: 30%; float: left; margin: 1%; line-height: 35px; border: 1px #EAEAEA solid; border-radius: 8px; text-align: center; }
+.onoffswitch {
+    position: relative; width: 45px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 21px; padding: 0; line-height: 21px;
+    border: 2px solid #efefef; border-radius: 21px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 25px; height: 25px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 19px;
+    box-shadow: 0 0 5px #b6b6b6; border-radius: 50%;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #01D941;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    border-color: #01D941;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px;
+}
+
+
+
+
+
+

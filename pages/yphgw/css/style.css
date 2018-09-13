@@ -1,0 +1,79 @@
+@charset "utf-8";
+html{-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;-ms-overflow-style: -ms-autohiding-scrollbar;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{font-size:100%;}
+legend{color:#000;}
+header,footer,nav{display: block;}
+::-moz-selection{background:#b79a56; color:#fff;}
+::selection {background:#b79a56; color:#fff;}
+html,body{background:#fff;}
+body{ font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif; font-size: 14px; color: #666666; background: #ffffff; }
+i{font-style:normal;}
+a{text-decoration: none;color: #666;border: 0;font-size: 100%;margin: 0;padding: 0;}
+a:hover{color: #ff1600;}
+.clear:after{clear: both;content:'';display: block;visibility:hidden;height:0;}
+.clear{zoom:1;}
+.container{ width: 1000px; margin: 0 auto; position: relative; }
+.f-999{ color: #999;}.f-666{ color: #666;}.f-fff{ color: #ffffff;}.f-b79a56{ color: #b79a56;}.f-bbb{ color: #bbbbbb;}
+.f12{font-size: 12px;}.f13{font-size: 13px;}.f14{font-size: 14px;}.f15{font-size: 15px;}.f16{font-size: 16px}.f17{font-size: 17px;}
+.f18{font-size: 18px;}.f19{font-size: 19px;}.f20{font-size: 20px;}.f21{font-size: 21px}.f22{font-size: 22px;}.f24{font-size: 24px;}
+.header{ position: absolute; width: 100%; top: 0;z-index: 3;}
+.header .top-info{ height: 35px;background: #b79a56;}
+.header .top-info .inner .wx-wb{ display: inline-block;}
+.header .top-info .inner .wx-wb div{ display: inline-block; width: 25px; height: 25px; margin-right: 10px; border-radius: 50%; background:#ffffff; text-align: center; line-height: 25px; position: relative; top: 5px;}
+.header .top-info .inner .e-p{ display: inline-block; line-height: 35px; position: absolute; right: 0; color: #ffffff;}
+.header .top-info .inner .e-p span{ display: inline-block; margin-left: 30px; }
+.header .logo-info{ height: 90px; background: url("../images/navbg_03.png") repeat-x; }
+.header .logo-info .logo{ width: 300px;height: 90px; text-align: center; vertical-align: middle; display: inline-block; }
+.header .logo-info .logo img{ vertical-align: middle; }
+.header .logo-info .logo span{ height: 100%; width: 0; display: inline-block; vertical-align: middle; }
+.header .logo-info .nav{ position: absolute; right: 0; top: 35px;}
+.header .logo-info .nav a{ padding: 5px 3px; margin-right: 40px; position: relative;}
+.header .logo-info .nav a:hover{ border-bottom: 2px #ff1600 solid;}
+.header .logo-info .nav .active{ border-bottom: 2px #ff1600 solid;}
+.header .logo-info .nav .nav-lx img{ position: absolute; left: 0; top: 35px; z-index: 2; display: none; transition: all 0.3s; }
+.header .logo-info .nav .nav-lx:hover img{ display: block; }
+.img-banner{ position: absolute; width: 100%; height: 100%; top: 0;z-index: 2;}
+.img-banner1{ background: url("../images/pages_02.jpg"); background-size: 100% auto; background-repeat: repeat-x; background-position: center; }
+.img-banner .img2{ position: absolute; left: 75%; top: 77px; }
+.img-banner2{ background: url("../images/pages_07.jpg"); background-size: 100% auto; background-repeat: repeat-x; background-position: center; }
+.img-banner3{ background: url("../images/pages_04.jpg"); background-size: 100% auto; background-repeat: repeat-y; background-position: center; }
+.img-banner4{ background: url("../images/page_10..png"); background-size: 100% auto; background-repeat: repeat-x; background-position: center; }
+.img-banner .footer{ width: 100%; position: absolute; left: 0; bottom: 0;}
+.section .img3{ text-align: center; width: 16%; margin: 30px auto;}
+.section .img3 img{ width: 100%; }
+
+.dd .mask{width: 100%; height: 100%;position: fixed; left: 0; top: 0; background: #000000; opacity: 0.6;  z-index: 9999;}
+.dd .img{ width: 900px; height: 582px; position: fixed; left: 50%; top: 50%; margin-left: -450px; margin-top: -291px;  z-index: 9999;}
+.dd .img .close-d{ width: 45px; height: 45px; position: absolute; right: 0;top: 0; cursor: pointer; }
+.none{ display: none;}
+
+.footer { width: 100%; height: 54px; font-size: 12px; background-color: #000; color: #fcfcfc; line-height: 24px; padding: 10px 0;  text-align: center;}
+.footer span { margin: 0 10px; }
+.footer a { color: #ccc; vertical-align: middle; margin: 0 10px; }
+
+
+#remark.bd { width: 50%; left: 25%; *left: 0; position: relative; }
+#remark li { position: relative; width: 100%; height: 600px; background-size: 100% auto; left: 0; -webkit-filter: none; filter: none; box-shadow: none; }
+
+#remark { position: absolute; margin: 0 auto; width: 100%; left: 0; height: 432px; top: 20%; }
+#remark ul { position: relative; margin: 0 auto; }
+#remark ul li { position: absolute; top: 0px; left: 50%; z-index: 0; background:#f0f0f0;box-shadow: 0px 0px 5px #f1b171; -webkit-filter: blur(1px); filter: blur(1px); width: 0px; height: 0px; }
+#remark ul li:nth-child(3) { -webkit-filter: none; filter: none; }
+#remark .arrow i { display: block; width: 60px; height: 60px; cursor: pointer; position: absolute; top: 50%; margin-top: -30px; z-index: 9; }
+#remark .arrow i.prev { background: url("../images/btn-left.png"); background-size: 100% auto; left: 5%; }
+#remark .arrow i.next { background: url("../images/btn-right.png"); background-size: 100% auto; right: 5%; }
+#remark ul li .pic{ position: absolute; width: 33.7%; left: 1.5%; top: 2.4%;}
+#remark ul li .pic img{ width: 100%; }
+#remark ul li .text{ margin-left: 38%; color: #FFFFFF; margin-right: 25px; padding-top: 90px; }
+#remark ul li .text .p1{ font-size: 31px; font-family: 宋体;color:#333333; border-bottom: 1px #333333 solid; padding-bottom: 15px; margin-bottom: 15px;  }
+#remark ul li .text .p2{ font-size: 16px; text-indent: 2em; line-height: 27px; color:#333333;}

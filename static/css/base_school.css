@@ -1,0 +1,113 @@
+*{margin: 0; padding: 0;}
+body{background-color:#f3f3f3; color:#333; font-family: "PingFang SC", "Lantinghei SC", "Microsoft YaHei", "HanHei SC", "Helvetica Neue", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft Yahei", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif,"\5B8B\4F53";
+ font-size: 14px; }
+img, input, select { vertical-align: middle; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:1em; }
+ol, ul { list-style-type:none; }
+table { border-collapse:collapse; border-spacing:0; }
+th,caption { text-align:left; }
+a img { border:0 none; cursor:pointer; }
+fieldset,img { border:0 none; }
+a, input { outline:0 none; }
+a:link, a:visited { text-decoration:none; }
+a, div, p, span, li, input{-webkit-tap-highlight-color: rgba(0,0,0,0);  -webkit-focus-ring-color: rgba(0, 0, 0, 0); -moz-tap-highlight-color: rgba(0,0,0,0); -moz-focus-ring-color: rgba(0, 0, 0, 0);  }
+a{ color:#333;}
+a:hover{ /*text-decoration:underline; */ }
+
+.container{ width:1200px;margin:0 auto;}
+.container-1000{ width:1000px;margin:0 auto;}
+.clearFix:after{    content: "020";    display: block;    height: 0;    clear: both;    visibility: hidden;}
+.clearFix { /* 触发 hasLayout */    zoom: 1;}
+.ellipsis{ white-space:nowrap;text-overflow:ellipsis;overflow:hidden;-webkit-text-overflow:ellipsis;}
+.none{ display: none;}
+
+.fbd{ font-weight: bold;}
+.f12{font-size: 12px;}.f13{font-size: 13px;}.f14{font-size: 14px;}.f15{font-size: 15px;}.f16{font-size: 16px}.f17{font-size: 17px;}
+.f18{font-size: 18px;}.f19{font-size: 19px;}.f20{font-size: 20px;}.f21{font-size: 21px}.f22{font-size: 22px;}.f24{font-size: 24px;}
+.fbd{ font-weight: bold;}
+.f-666{color: #666;}.f-999{color: #999;}.f-cl{ color: #0092dd;}
+.f-fff{color: #FFFFFF;}
+.bg-f9{background-color: #f9f9f9;}.bg-f5{ background-color: #f5f5f5;}.bg-fff{ background-color: #fff;}
+.bd{border: 1px #efefef solid}
+.mg5{ margin:5px;}.mg10{ margin:10px;}.mgt5{ margin-top:5px;}.mgt10{ margin-top:10px;}.mg15{ margin:10px;}.mgt10{ margin-top:10px;}.mgl10{ margin-left:10px;}.mgb10{ margin-bottom:10px;}.mgr10{ margin-right:10px;}
+.mgt20{ margin-top:20px;}.mgt30{ margin-top:30px;}.mgt50{ margin-top:50px;}.pd10{padding: 10px;}.pdl10{padding-left: 10px;}.pdr10{padding-right: 10px;}.pdt15{padding-top: 15px;}.pdb10{padding-bottom: 10px;}
+
+.button{ height: 36px; background: #1c84c6; width: 80px; color: #ffffff; border: none; line-height: 36px; padding: 0 20px;
+ cursor: pointer; font-size: 16px; text-align: center; border-bottom: 4px #166a9f solid; border-radius: 3px;}
+.button:hover{ background: #1d8bd1; }
+.clear-input{ height: 30px; width: 250px; border-radius: 2px; border: 1px #ddd solid; padding: 0 10px;}
+
+
+.header-p{ position: fixed; left: 0; top: 0; width: 100%; z-index: 9999; border-bottom: 1px #EFEFEF solid;}
+.header{ background: #FFFFFF; height: 80px; font-size: 14px;}
+.header .container{ position: relative; height: 80px;}
+.header .logo{ width: 200px; height: 80px; line-height: 80px; position: absolute; left: 0; top: 0; }
+.header .call{ width: 280px; height: 80px; position: absolute; right: 0; top: 0; line-height: 80px; color: #0092dd; text-align: right;}
+.header .call .s2{ font-size: 30px; }
+.header .call .s1{ position: relative; top: -3px; }
+.header .menu{  line-height: 80px; position: absolute; right: 350px; top: 0;}
+.header .menu a{  margin-left: 30px;}
+.header .menu1{  line-height: 8px; position: absolute; right: 270px; top: 25px;}
+.header .menu1 a{  margin-left: 30px;}
+.header .user-login-info{ margin-left: 250px; height: 80px; line-height: 80px; margin-right: 600px;}
+.header .user-login-info .wdl a{ display: inline-block; margin-right: 20px; height: 30px; line-height: 30px; }
+.header .user-login-info .wdl .a2{ width: 70px; text-align: center; border: 1px #999 solid; border-radius: 3px; }
+.header .user-login-info .wdl .a2:hover{ }
+.header .user-login-info .wdl .a1{ height: 30px; line-height: 30px; width: 130px; text-align: center;
+background: #EFEFEF; border-radius: 3px;}
+.header .user-login-info .wdl .a1 i{ color: #2db200; margin-right: 5px;}
+.header .user-login-info .wdl .a1:hover{ background: #CCCCCC;}
+
+.QRcode-top{ position: fixed; left: 50%; margin-left: 610px; bottom: 100px;}
+.QRcode-top  div{ width: 35px; height: 35px; text-align: center; line-height: 35px; position: relative; margin-bottom: 10px;
+ background: #FFFFFF; cursor: pointer;}
+.QRcode-top  div:hover{ background: #6EBBED; color: #FFFFFF;}
+.QRcode-top  div:hover img{display: block; }
+.QRcode-top  div .iconfont{ font-size: 21px; }
+.QRcode-top  .qrCode img{ position: absolute;  left: -75px; top: 0; display: none; }
+
+.mbx-bar{ line-height: 45px;}
+.mbx-bar a{  display: inline-block; margin-right: 5px;}
+
+.index-public-title{ line-height:35px; text-align: center; height: 35px; margin: 20px 0; font-size: 18px; position: relative; }
+.index-public-title:before {content: "";	border-top: 1px dashed #cccccc; display: block;	position: absolute;	width: 200px; top: 17px;	left: 350px;}
+.index-public-title:after {content: "";	border-top: 1px dashed #cccccc; display: block;	position: absolute;	width: 200px; top: 17px;	right: 350px;}
+
+
+
+.footer{ text-align: center; padding: 50px 0; border-top: 1px #d7d7d7 solid; margin-top: 20px;}
+.footer .text span{ display: inline-block; margin: 10px; }
+.footer .ww{ font-size: 0; text-align: center;}
+.footer .ww a{ display: inline-block; margin: 35px 20px;}
+
+
+
+
+
+.public-mbx{ background: #f6f5f5;}
+.public-mbx span{ display: inline-block; margin: 0 10px; line-height: 40px;}
+.public-pages-group{ margin: 30px 0;}
+.public-pages-group ul li{ display: inline-block; margin-right: 5px; padding: 5px 10px; cursor: pointer;  border-radius: 3px;
+ background: #EFEFEF; border: 1px #d7d7d8 solid;}
+.public-pages-group ul .current{ background: #00417f; color: #ffffff; border: 1px #ffffff solid;}
+.public-pages-group ul li:hover{ border: 1px #00417f solid;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+.slide{
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.slide:after{
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 40%;/*图片比例宽1:0.33.*/
+
+}
+
+.slide ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+.slide li{
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.slide li:first-child{
+    z-index: 1;
+}
+.slide li img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border: none;
+    height: auto;
+    text-align: center;
+}
+
+.slide .dot{
+    position: absolute;
+    bottom: 10px;
+    font-size: 0;
+    width: 100%; text-align: center;
+}
+.slide .dot span{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin-left: 5px;
+    background: #000;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+.slide .dot .cur{
+    background: #fff;
+    opacity: 1;
+}

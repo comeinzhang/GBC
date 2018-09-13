@@ -1,0 +1,46 @@
+*{margin: 0; padding: 0;}
+body{background-color:#f3f2f7; color:#323232; font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif; font-size: 14px; }
+img, input, select { vertical-align: middle; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:1em; }
+ol, ul { list-style-type:none; }
+table { border-collapse:collapse; border-spacing:0; }
+th,caption { text-align:left; }
+a img { border:0 none; cursor:pointer; }
+fieldset,img { border:0 none; }
+a, input { outline:0 none; }
+a{ color:#333;}
+a:link, a:visited { text-decoration:none; }
+a, div, p, span, li, input{-webkit-tap-highlight-color: rgba(0,0,0,0);  -webkit-focus-ring-color: rgba(0, 0, 0, 0); -moz-tap-highlight-color: rgba(0,0,0,0); -moz-focus-ring-color: rgba(0, 0, 0, 0);  }
+a{ color:#323232;}
+.container{min-width:320px; max-width:750px;margin:0 auto; font-size: 14px;}
+.clearfix:after{    content: "020";    display: block;    height: 0;    clear: both;    visibility: hidden;}
+.clearfix { /* ´¥·¢ hasLayout */    zoom: 1;}
+.mt45{ margin-top: 45px;}
+.mb60{ margin-bottom: 60px;}
+
+/*bottom_menu*/
+.bottom_menu{ min-width: 320px; max-width: 750px; width: 100%; overflow: hidden; font-size: 13px; position:fixed; bottom:0px; animation-fill-mode: forwards !important;
+    border-top: 1px #d7d7d7 solid;}
+.bottom_menu ul{ width: 100%;height:45px; background:#f9f9f9; padding-top: 5px; z-index:6; float: left;}
+.bottom_menu ul li{ width:25%; float:left; text-align:center;}
+.bottom_menu ul li a{ color: #323232;}
+.bottom_menu ul li i{ display:block; width:25px; height:25px; margin:0 auto;}
+.bottom_menu ul li p{  font-size: 11px;}
+.bottom_menu .bottom_menu_bg1{ background:url(../images/bottomico.png) 0 0 no-repeat; background-size: 25px;}
+.bottom_menu .bottom_menu_bg2{ background:url(../images/bottomico.png) 0  -25px no-repeat; background-size: 25px;}
+.bottom_menu .bottom_menu_bg3{ background:url(../images/bottomico.png) 0  -51px no-repeat; background-size: 25px;}
+.bottom_menu .bottom_menu_bg4{ background:url(../images/bottomico.png) 0  -75px no-repeat; background-size: 25px;}
+.bottom_menu .bottom_menu_bg5{ background:url(../images/bottomico.png) 0  -25px no-repeat; background-size: 25px;}
+
+
+.public-top{ background: #f9f9f9; height: 45px; z-index: 10; border-bottom:1px #d7d7d7 solid;}
+.public-top .back-btn, .public-top .menu-btn{ width: 25px; height: 25px; margin: 8px 8px 7px 7px; position: absolute; top: 0; background-size: 25px !important;}
+.public-top .back-btn{ left: 0; background: url("../images/icons.png") 0 -104px no-repeat;}
+.public-top .menu-btn{ right: 0; background: url("../images/icons.png") 0 -130px no-repeat;}
+.public-top .msg{ font-size: 18px; margin: 0 45px; text-align: center; line-height: 45px; }
+
+.p-heat{ width: 100%; height: 45px; background: #f9f9f9; box-shadow: 0px 1px 3px #DFDFDF; position: fixed; left: 0; top: 0;
+ z-index: 99999;}
+.p-heat .back-btn{ width: 45px; height: 45px; position: absolute; left: 0; top: 0;background: url(../img/back_03.png) center no-repeat;
+    background-size: 20px;}
+.p-heat .title{ font-size: 18px; margin: 0 45px; line-height: 45px; text-align: center;}

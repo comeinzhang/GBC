@@ -1,0 +1,112 @@
+.schoolroom nav{ font-size: 18px; padding: 8px 0; display: block;}
+.schoolroom nav a{ display: block; width: 25%; float: left; line-height: 35px; text-align: center;}
+.schoolroom nav .select{ color: #dc214c; font-weight: 300;}
+.schoolroom .schoolroom-list >div{ overflow: hidden; }
+.schoolroom .schoolroom-list >div .title{ font-size: 18px; padding: 15px; color: #dc214c;}
+.schoolroom .schoolroom-list >div .title a{ font-size: 13px; float: right; line-height: 28px; color: #444444;}
+.schoolroom .schoolroom-list >div >ul{padding-left: 15px;}
+.schoolroom .schoolroom-list >div >ul li{border-top: 1px #e6e6e6 solid; padding-top: 10px; padding-bottom: 10px; padding-right: 15px;}
+.schoolroom .schoolroom-list >div >ul li a{ display: block; height: 75px; position: relative;}
+.schoolroom .schoolroom-list >div >ul li a .pic{ width:100px; height: 75px; overflow: hidden; position: absolute; }
+.schoolroom .schoolroom-list >div >ul li a .pic img{ width:100px;}
+.schoolroom .schoolroom-list >div >ul li a .text{ margin-left: 110px; position: relative; height: 75px;}
+.schoolroom .schoolroom-list >div >ul li a .text .name{ line-height: 25px; height: 50px; overflow: hidden; text-align: justify;}
+.schoolroom .schoolroom-list >div >ul li a .text .price{ font-size: 14px; line-height: 25px; color: #dc214c; }
+.schoolroom .schoolroom-list >div >ul li a .text .time{ font-size: 12px; color: #999999; position: absolute; right: 0; bottom: 0; }
+.schoolroom .schoolroom-list .online-solutions ul li{  padding-bottom: 25px; }
+.schoolroom .schoolroom-list .online-solutions ul li a{ height: auto;}
+.schoolroom .schoolroom-list .online-solutions ul li a .text{ margin-left: inherit; height: inherit;}
+.schoolroom .schoolroom-list .online-solutions ul li a .text .name{ line-height: 25px; height: auto; overflow: inherit; text-align: justify;}
+.schoolroom .schoolroom-list .online-solutions ul li a .text .time{bottom: -17px; }
+.mt60 .schoolroom-list >div >ul{ margin-top: -1px;}
+.schoolroom-content .info-comment .tab{ height: 36px; border-bottom: 1px #dc214c solid; text-align: center; margin-bottom: 15px;}
+.schoolroom-content .info-comment .tab p{ width: 50%; float: left; font-size: 18px; line-height: 35px;}
+.schoolroom-content .info-comment .tab .select{ border-bottom: 2px #dc214c solid; color: #dc214c;}
+.schoolroom-content .info-comment .tab-content .info .title{ line-height: 35px;}
+.schoolroom-content .info-comment .tab-content .info .pic-name{ line-height: 65px; position: relative;}
+.schoolroom-content .info-comment .tab-content .info .pic-name .pic{ width: 65px; height: 65px; overflow: hidden; border-radius: 50%; position: absolute;}
+.schoolroom-content .info-comment .tab-content .info .pic-name .pic img{ width: 65px;}
+.schoolroom-content .info-comment .tab-content .info .pic-name .name{ margin-left: 80px; color: #666;}
+.schoolroom-content .info-comment .tab-content .info .text{ font-size: 14px; line-height: 24px; color: #999999;}
+
+
+.schoolroom-content .video-play .price-name-btn .price{ color: #dc214c; margin: 5px 0;}
+.schoolroom-content .video-play .price-name-btn .pay-btn{ cursor: pointer; width: 60px; margin-top: 10px; line-height: 35px; font-size: 18px; background: #dc214c; border-radius: 6px; text-align: center; color: #ffffff;}
+.schoolroom-content .video-play .price-name-btn .payed-btn{ width: 60px; margin-top: 10px; line-height: 35px; font-size: 18px; background: #dc214c; border-radius: 6px; text-align: center; color: #ffffff;}
+.schoolroom-content .video-play .price-name-btn .mf{ background: #999999;}
+.schoolroom-content .reply-group form{ display: block;}
+.schoolroom-content .reply-group form textarea{ display: block; width: 96%; padding: 2%; background: #f9f9f9; font-size: 16px; border: 1px #e6e6e6 solid; height: 100px;border-radius: 6px;}
+.schoolroom-content .reply-group .form-btn{ height: 35px; margin-top: 15px; position: relative;}
+.schoolroom-content .reply-group .form-btn .submit{ display: block; width: 80px; height: 35px; line-height: 35px; font-size: 14px; text-align: center; background: #dc214c; border: none; color: #ffffff; position: absolute; top: 0; right: 0; border-radius: 6px;}
+.schoolroom-content .comments-list { margin-top: 15px;margin-bottom: 20px;}
+.schoolroom-content .comments-list  li{ border-top: 1px #e6e6e6 solid; position: relative; margin-top: 10px; padding-top: 10px;}
+.schoolroom-content .comments-list  li .pic{ position: absolute; width: 50px; height: 50px;}
+.schoolroom-content .comments-list  li .pic img{width: 50px;}
+.schoolroom-content .comments-list  li .text{ margin-left: 60px;}
+.schoolroom-content .comments-list  li .text .time{ font-size: 12px; color: #999; margin-top: 12px; margin-bottom: 10px;}
+.schoolroom-content .comments-list  li .text .comment-info{ font-size: 14px; color: #666; line-height: 24px;}
+.schoolroom-content .page-btn{ background: #e6e6e6; font-size: 12px; color: #666; border-radius: 6px; margin: 20px 0; line-height: 25px; text-align: center;}
+
+
+.schoolroom-qa .top h1{ font-size: 24px; font-weight: bold; line-height: 30px; }
+.schoolroom-qa img{ margin: 5px 0; }
+.schoolroom-qa .top span{ display: block; margin: 10px 0; font-size: 12px; color: #999999; }
+.schoolroom-qa .top span a{display: inline-block; margin-left: 20px;}
+.schoolroom-qa .content{ margin: 0 15px; padding-bottom: 30px;}
+.schoolroom-qa .content p{ line-height: 28px; text-indent: 2em; font-size: 18px; text-align: justify; }
+
+.maskBox{ display: block;}
+.buy-slide{ height: 100%; display: none;}
+.buy-slide .floor{ height: 30%; width: 100%; position: absolute; bottom: -80%; background: #ffffff; z-index: 10; overflow: auto;}
+.buy-slide .floor .inner .close-btn{ width: 24px; height: 24px; position: absolute; right: 15px; top: 15px; background: url("../images/icon.png") -57px -117px no-repeat #ffffff; z-index: 9998; }
+.buy-slide .floor .inner .name{ line-height: 25px; width: 75%;}
+.buy-slide .floor .inner form{  margin-top: 20px; display: block; }
+.buy-slide .floor .inner form .row{ height:35px; margin-bottom: 10px; position: relative; }
+.buy-slide .floor .inner form .row .price{ display: inline-block; color: #dc214c; margin-left: 20px; font-size: 18px;line-height: 35px; }
+.buy-slide .floor .inner form .row .num{ margin-left: 90px; height: 35px; line-height: 35px;}
+.buy-slide .floor .inner form .row .num span{display: inline-block;  width: 30px; height: 30px; line-height: 30px; text-align: center;}
+.buy-slide .floor .inner form .row .num .sp4{ background: #e6e6e6;}
+.buy-slide .floor .inner form .row .num .sp5{ background: #cccccc;}
+.buy-slide .floor .inner form .row .num .sp6{ width: 60px; border: 1px #e6e6e6 solid; }
+.buy-slide .floor .inner form .row .num .sp6 input{ width: 100%; height: 100%;border: none; background: none;  text-align: center;}
+.buy-slide .floor .inner form .row .sp1{ display: block; width: 90px; line-height: 35px; position: absolute; left: 0; top: 0;}
+.buy-slide .floor .inner form .row .sp2{ display: block; height: 35px; margin-left: 90px; border: 1px #e6e6e6 solid; padding-left: 10px;}
+.buy-slide .floor .inner form .row .sp3{ height: 80px;}
+.buy-slide .floor .inner form .row2{ height: 80px;}
+.buy-slide .floor .inner form .row .sp2 input, textarea{ width: 96%; height: 96%; font-size: 14px;border: none; background: none;}
+textarea{  padding: 2%; }
+.buy-slide .floor .inner .submit{ height: 45px; line-height: 45px; text-align: center; font-size: 18px; color: #ffffff; background: #dc214c;}
+
+.schoolroom .link-post{ height: 45px; background: #ffffff; text-align: center; line-height: 45px; font-size: 18px;}
+.schoolroom .link-post a{color: #dc214c;}
+.schoolroom .link-post a span{ font-size: 9px;}
+.schoolroom .link-post a i{ display: inline-block; position: relative; top: 3px; width: 24px;height: 24px; background: url("../images/icon.png") -212px 3px no-repeat; background-size:252px ;}
+
+.schoolroom .companyresume-list >div{ overflow: hidden; }
+.schoolroom .companyresume-list >div .title{ font-size: 18px; padding: 15px; color: #dc214c;}
+.schoolroom .companyresume-list >div .title { font-size: 13px; float: right; line-height: 28px; color: #444444;}
+.schoolroom .companyresume-list >div >ul{padding-left: 15px; padding-top: 45px; padding-right: 15px;}
+.schoolroom .companyresume-list >div >ul li { display: block; height: 75px; position: relative;border-bottom: 1px #e6e6e6 solid; padding-bottom: 10px;}
+.schoolroom .companyresume-list >div >ul li  .pic{ width:100px; height: 75px; overflow: hidden; position: absolute; }
+.schoolroom .companyresume-list >div >ul li  .pic img{ width:100px;}
+.schoolroom .companyresume-list >div >ul li  .text{ margin-left: 110px; position: relative; height: 75px;}
+.schoolroom .companyresume-list >div >ul li  .text .name{ line-height: 25px; height: 50px; text-align: justify;position: absolute; right: 0;}
+.schoolroom .companyresume-list >div >ul li  .text .time{ font-size: 12px; color: #999999; position: absolute; right: 0; bottom: 0; }
+.schoolroom .companyresume-list .online-solutions ul li{  padding-bottom: 25px;height: auto; }
+.schoolroom .companyresume-list .online-solutions ul li  .text{ margin-left: inherit; height: inherit;}
+.schoolroom .companyresume-list .online-solutions ul li  .text .name{ line-height: 25px; height: auto; overflow: inherit; text-align: justify;}
+.schoolroom .companyresume-list .online-solutions ul li  .text .time{bottom: -17px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

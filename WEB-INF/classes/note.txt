@@ -1,0 +1,14 @@
+//此文档仅用于开发记录
+	List<Map<String, Object>> b = (List<Map<String, Object>>) jdbcTemplate.execute("select * from b_info LIMIT 10",  new CallableStatementCallback<Object>() {
+
+			@Override
+			public Object doInCallableStatement(CallableStatement stmt)
+					throws SQLException, DataAccessException {
+				ResultSet rs = stmt.executeQuery();  
+				while (rs.next()){
+					Blob blob = rs.getBlob("CONTENT");
+					String content = new String(blob.getBytes((long)1, (int)blob.length()));  
+					System.out.println("content= "+content);
+				}
+				return 1;
+			} });

@@ -1,0 +1,2 @@
+//document.writeln('<link rel="stylesheet" href="../../iconfonts/iconfont.css">');//本地
+document.writeln('<link rel="stylesheet" href="http://at.alicdn.com/t/font_450229_6gu7pw6zbbcpu8fr.css">');//阿里cdn

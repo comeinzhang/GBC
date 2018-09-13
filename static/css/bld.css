@@ -1,0 +1,85 @@
+@charset "UTF-8";
+.slide:after{ padding-top: 40%;}
+
+.page-warp .head-bar .t-bar .text img{ height: 8px; }
+.bld-index .id-tt{ height: 45px; padding:0 15px; border-bottom: 1px #efefef solid; background: #ffffff; line-height: 45px; }
+.bld-index .id-tt span img{ height: 13px; display: inline-block; margin-left: 10px; }
+.g-list .goods-box .content .pic{ width: 80px; height: 80px;}
+.g-list .goods-box .content .pic img{ width: 80px; height: 80px;}
+.g-list .goods-box .content .text{ height: 80px; margin-left: 90px; }
+.g-list .goods-box .content .text .name{ font-size: 16px; margin-top: 5px;}
+.g-list .goods-box .content .text .xx{ color: #8e8e93}
+.g-list .goods-box .content .text .jl{ color: #8e8e93; position: absolute; top: 50%; right: 0; margin-top: -10px;}
+.g-list .goods-box{ margin-bottom: 0; border-bottom: 1px #efefef solid;}
+.page-warp .head-bar .t-bar .ddr{ width: auto; font-size: 12px; right: 15px; }
+
+.bld-index .bld-i-head{ width: 100%; height: 45px; position: fixed; left: 0; top: 46px; background: #ffffff;}
+.bld-index .bld-i-head .map-alt{ line-height: 45px; width: 75px; text-align: center; position: absolute; left: 15px; top: 0; overflow: hidden; }
+.bld-index .bld-i-head .map-alt .s1{ display: inline-block; }
+.bld-index .bld-i-head .map-alt img{ height: 8px; display: inline-block; }
+
+
+.bld-index .bld-i-head .search-box{ background: #e6e6e8; margin-left: 100px; margin-right: 15px; border-radius: 7px; height: 30px; position: relative; top: 7px;}
+.bld-index .bld-i-head .search-box input{ width: 96%; display: block; height: 30px; line-height: 20px; background: none; border: 0;
+    text-align: left; padding-left: 4%;}
+.bld-index .bld-i-head .search-box .sc-btn{ width: 45px; height: 30px; position: absolute; right: 0; top: 0; text-align: center; line-height: 30px;}
+
+.bld-index .bld-m-l{ padding-top: 46px;}
+
+.bld-index .bld-m-l .tt{ line-height: 35px; padding-left: 15px; color: #8e8e93 }
+.bld-index .bld-m-l .list-box .row{ position: relative; line-height: 45px;padding-left: 15px; background: #ffffff; }
+.bld-index .bld-m-l .list-box .row .p1{ border-bottom: 1px #efefef solid; margin-right: 30px;    white-space: nowrap;
+    text-overflow: ellipsis; overflow: hidden; -webkit-text-overflow: ellipsis;  }
+.bld-index .bld-m-l .list-box .row .xs{ position: absolute; right: 15px; top: 0; }
+.bld-index .bld-m-l .list-box .row .xs img{ height: 15px; }
+
+.city-container{ position: fixed; width: 100%; height: 100%; left: 0; top: 0; background: #ffffff; overflow-y: auto;
+-webkit-overflow-scrolling: touch; z-index: 10000;}
+
+
+.bld-index .fl{float:left;}
+.bld-index .fr{float:right;}
+.bld-index .none{display:none;}
+.bld-index .loan_jm1{width:94%;margin:0 auto;}
+.bld-index .loan_jm_spa1{width:39%;height:40px;line-height:40px;font-size:1em;color:#666;display:block;float:left;}
+.bld-index .loan_jm_l1{margin-top:10px;margin-bottom:15px;height:40px;}
+.bld-index .wbk_srn{width:57%;height:40px;border:1px solid #ccc;background:#FFF;float:left;padding-left:3%;line-height:40px;color:#ff6c32;
+    font-size:1.1em; background-size:45%;background-position:center;background:#fff;}
+.bld-index .wbk_srn b{width:30px;height:40px;border:1px solid #ccc;background:#FFF;float:left;padding-left:3%;line-height:40px;color:#ff6c32;
+    font-size:1.1em;}
+/*显示点击是哪个字母*/
+.bld-index .showLetter{
+    position: fixed;
+    color:#ff6c32;
+    width: 50px;
+    height:50px;
+    top:50%;
+    left: 50%;
+    border-radius: 50%;
+    border: #ff6c32 1px solid;
+    text-align: center;
+    display: none;
+}
+.bld-index .showLetter span{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.bld-index .letter{width:auto;position:fixed;top:50%;right:10px;text-align:center; margin-top: -275px;}
+.bld-index .letter ul{list-style-type:none;}
+.bld-index .letter ul li a{text-decoration:none;color:#8e8e93;font-size: 18px}
+.bld-index .city{width:90%;overflow:hidden;padding:20px;}
+.bld-index .city-list{width:100%;}
+.bld-index .city-list .city-letter{font-size:20px;display:inline-block;padding-top:15px;padding-bottom:5px;border-bottom:1px solid #efefef;width:100%;}
+.bld-index .city-list p{ width:95%;height:44px;line-height:44px;border-bottom:1px solid #efefef;cursor:pointer;}
+.bld-index .UISelect{margin-top:5px}
+
+
+
+
+
+
+
+

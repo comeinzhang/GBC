@@ -1,0 +1,50 @@
+.center .head{ position: relative; padding-bottom: 70%; background: #ffffff;}
+.center .head .title{ line-height: 40px; text-align: center; font-size: 18px; z-index: 4; position: relative; color: #ffffff;}
+.center .head .head-1{ width:100%; background: #dc214c; position: absolute; padding-bottom: 60%;z-index: 2;top: 0;}
+.center .head .head-2{ width:100%; background: #ffffff; position: absolute; padding-bottom: 40%; top: 45%; border-radius: 50% 50% 0 0; z-index: 3;}
+.center .head .pic-name{ width: 100%; position: absolute; top: 33%; z-index: 4;}
+.center .head .pic-name .pic{ width: 100px; height: 100px; border-radius: 50%; margin: 0 auto; overflow: hidden; }
+.center .head .pic-name .pic img{ width: 100px; height: 100px;}
+.center .head .pic-name p{ text-align: center; margin-top: 5px;}
+.center .head .pic-name .user-name{ font-size: 14px; color: #999999;}
+.center .head .pic-name .user-name{ font-size: 14px; color: #999999;}
+.center .head .link{ position: absolute; bottom: 0; width: 100%;  height: 45px; z-index: 4;}
+.center .head .link a, .center .nav-list a{ display: block; margin-left: 15px; line-height: 45px; position: relative;}
+.center .head .link a i, .center .nav-list a i{ display: inline-block; position: relative; margin-right: 5px;  }
+.center .head .link a i{width: 13px; height: 18px;top: 4px; margin-left: 3px; background: url("/TYHWX/static/images/icon.png") 0 -60px no-repeat; background-size: 300px 192px; }
+.right-icon{ display: inline-block; width: 9px; height: 19px; position: absolute; right: 15px; top: 15px; background: url("/TYHWX/static/images/icon.png") 0 -85px no-repeat; background-size: 300px 192px;}
+.center .nav-list{ background: #ffffff;}
+.center .nav-list a{ background: #ffffff; border-bottom: 1px #e6e6e6 solid;}
+.center .nav-list a .i_1{ width: 20px; height: 15px; top: 2px; background: url("/TYHWX/static/images/icon.png") -15px -60px no-repeat; background-size: 300px 192px; }
+.center .nav-list a .i_2{ width: 16px; height: 17px; top: 2px; margin-left: 3px; background: url("/TYHWX/static/images/icon.png") -35px -60px no-repeat; background-size: 300px 192px; }
+.center .nav-list a .i_3{ width: 17px; height: 17px; top: 2px; margin-left: 3px; background: url("/TYHWX/static/images/icon.png") -51px -60px no-repeat; background-size: 300px 192px; }
+.center-base form{ display: block;}
+.center-base .from-submit{  height: 40px; line-height: 40px; text-align: center; color: #ffffff; background: #dc214c;}
+.center-base form .data1 .data2, .center-base .data1 .setImg{ position: relative; margin-left: 15px; border-bottom: 1px #e6e6e6 solid;}
+.center-base form .data1 .setImg{ height: 100px; line-height: 100px;}
+.center-base form .data1 .setImg img{ position: absolute; width: 70px; height: 70px; border-radius: 50%; overflow: hidden; right: 35px; top: 15px;}
+.center-base form .data1 .setImg span{ top:42px; }
+.center-base form .data1 .setImg input{ display: inline-block; width: 100%;height: 100px; position: absolute;right: 0;top: 0; opacity: 0; }
+.center-base form .data1 .data2{ line-height: 45px;}
+.center-base form .data1 .data2 .input{ display: inline-block; margin-left: 15px; border: none; position: absolute; right:39px; background: none; width: 70%; height: 44px; text-align: right; font-size: 16px;color: #999999;}
+.center-base form .data1 .sex select{ display: inline-block; width: 70px; font-size: 16px; height: 30px; position: absolute; right: 20px; top:7px; }
+.center-base form .data3 .part-time-job{ line-height: 45px; margin-left: 15px; position: relative; height: 45px;}
+.center-base form .data3 .part-time-job .span1{ height: 45px;display: block;}
+.center-base form .data3 .part-time-job #part-time-job{ height: 45px; display: block; position: absolute; right:39px; border: none;color: #999999;  width: 63%; text-align: right;background: none; font-size: 16px;}
+.center-base form .education .title{ margin-left: 15px; line-height: 45px; position: relative;}
+.center-base form .education .text{ font-size: 16px; color: #999999; text-align: center;}
+.center-base form .education .text i{ display: inline-block; width: 16px; height: 16px; background: url("/TYHWX/static/images/icon.png") -168px 0 no-repeat; background-size: 200px 128px; margin: 0 5px; position: relative; top: 2px; }
+.center-base form .education .add-edit{ color: #dc214c;  text-align: center;}
+.center-base form .education .add-edit span{ display: inline-block; width: 16px; height: 16px; line-height:16px; text-align: center;  border-radius: 50%; border: 1px #dc214c solid;}
+.center-base form .education .education-edit{ display: none}
+.center-base form .education .education-edit p{ line-height: 45px; border-bottom: 1px #e6e6e6 solid;}
+.center-base form .education .education-edit p input{ height: 45px; font-size: 16px; color: #666;width: 100%; background: none; border: none;}
+.center-base form .education .education-edit .textarea textarea{ display: block; width: 96%; height: 100px; padding: 2%; background: none; border: 1px #e6e6e6 solid; font-size: 16px;}
+.center-base form .education .education-edit p .input1{ width: 40%; text-align: center; }
+.center-base form .education .education-edit .btn, .center-base form .education .education-edit .btn-delete{ width: 80px; float: left; line-height: 30px; font-size: 14px; margin: 20px; text-align: center; background: #dc214c; border-radius: 6px;color: #ffffff;}
+
+
+
+
+
+

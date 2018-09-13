@@ -1,0 +1,25 @@
+.head-bar .t-bar .btn-l,
+.head-bar .t-bar .btn-mr{ color: #ffffff!important;}
+.head-bar .t-bar .btn-fl{ position: absolute; width: 30px; height: 45px; top: 0; right: 25px; text-align: center; line-height: 45px; color: #fff;}
+.page-warp .head-bar .t-bar .ddr{width: 25px; right: 0; text-align: left; }
+.page-warp .head-bar .t-bar .btn-fl i{ position: relative; top: 1px; font-size: 19px; }
+.page-warp .head-bar .search-box{ margin-right: 60px; }
+.head-bar .st-h{ height: 60px; padding: 15px; position: relative; transition: all 0.3s;}
+.head-bar .st-h .i1{ width: 55px; height: 55px; margin-right: 10px; float: left; }
+.head-bar .st-h .p1{ font-size: 16px; margin-bottom: 5px; color: #ffffff }
+.head-bar .st-h .p2{ color: #ffffff  }
+.head-bar .st-h .gz-btn{  padding: 8px 13px; background: #ffffff; color: #fe6345; display: inline-block; position: absolute; right: 15px; top: 15px;
+border-radius: 15px;}
+
+.dp-index{ margin-top: 135px;}
+.head-bar .top-link{ background: #fff; height: 40px; line-height: 40px; transition: all 0.3s; }
+.head-bar .top-link p{ width: 33.3%; float: left; font-size: 16px; position: relative; }
+.head-bar .top-link p a{  margin: 0 15px }
+.head-bar .top-link .active a{ border-bottom: 2px #fe6345 solid; padding-bottom: 3px; }
+.head-bar .top-link .p2{ text-align: center; }
+.head-bar .top-link .p3{ text-align: right; }
+/*
+
+.dp-index2 .dp-index{ margin-top: 0;}
+.dp-index2 .st-h{display: none;transition: all 0.3s;}
+.dp-index2 .top-link{ width: 100%; position: fixed; left: 0; top: 45px; z-index: 99; transition: all 0.3s;}*/

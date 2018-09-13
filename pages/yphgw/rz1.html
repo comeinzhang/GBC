@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-CN" >
+<head>
+    <meta charset="utf-8">
+    <title>善业众邦</title>
+    <meta name="keywords" content="善业众邦,善业众邦官网,益拍行" />
+    <meta name="description" content="善业众邦,善业众邦官网,益拍行"/>
+    <link rel="stylesheet" type="text/css" href="css/jm.css" />
+    <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body class="body">
+<div class="header" id="header">
+    <div class="logo-info">
+        <div class="inner container">
+            <div class="logo">
+                <a href="index.html" target="_self"><img src="images/logo.jpg"></a><span></span>
+            </div>
+            <div class="nav f16">
+                <a href="index.html" class="nav-header">首页</a>
+                <a href="gd.html" class="nav-dl">公益拍卖</a>
+                <a href="csjm.html" class="active">入驻加盟</a>
+                <a href="jop.html">招贤纳士</a>
+                <a href="about.html" class="nav-lx">联系我们
+                    <img src="images/qrcode.png">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jm-index">
+    <div class="banner">
+    </div>
+    <div class="container">
+      <form action="" method="post" id="shopForm" enctype="multipart/form-data">
+       <div class="jm1" id="postCode">
+           <div class="tio-img"><img src="images/jm_04.png"></div>
+           <div class="t1">
+               <div class="row">
+                   <p class="p1">*手机号  （请输入11位正确数字）</p>
+                   <div class="ip ipp">
+                       <input type="text" name="phone" placeholder="11位手机号码"><span id="getMessage" class="getIng">获取验证码</span>
+                   </div>
+               </div>
+               <div class="row">
+                   <p class="p1">*验证码  (不能为空)</p>
+                   <div class="ip">
+                       <input type="text" name="checkCode" placeholder="手机短信验证码">
+                   </div>
+               </div>
+               <div class="row">
+                   <a href="javascript:" id="toPostMsg" class="btn" target="_self">立即入住</a>
+               </div>
+           </div>
+       </div>
+       <div class="jm1" id="postMsg" style="display: none;">
+           <div class="top-t">商家入驻信息填写</div>
+           <div class="t1 t2">
+               <div class="r-ti">基本信息</div>
+               <div class="row">
+                   <p class="p1">*店铺名</p>
+                   <div class="ip">
+                       <input type="text" name="name"/>
+                   </div>
+               </div>
+               <div class="row">
+                   <p class="p1">*店铺介绍</p>
+                   <div class="ip">
+                       <textarea name="shopDes"></textarea>
+                   </div>
+               </div>
+               <div class="row">
+                   <p class="p1">*姓名</p>
+                   <div class="ip">
+                       <input name="realName" type="text">
+                   </div>
+               </div>
+               <div class="row">
+                   <p class="p1">*身份证号码</p>
+                   <div class="ip">
+                       <input type="text" name="card">
+                   </div>
+               </div>
+               <div class="row">
+                   <p class="p1">*银行卡号</p>
+                   <div class="ip">
+                       <input type="text" name="account">
+                   </div>
+               </div>
+               <div class="row">
+                   <p class="p1">*开户行</p>
+                   <div class="ip">
+                       <input type="text" name="bank">
+                   </div>
+               </div>
+               <div class="row">
+                   <p class="p1">*联系人手机</p>
+                   <div class="ip">
+                       <input type="text" name="userPhone">
+                   </div>
+               </div>
+               <div class="row">
+                   <p class="p1">*实名认证</p>
+                   <div class="ipg">
+                       <p>点击上传身份证正面</p>
+                       <input type="file" name="headImgUrlFile" id="file1" value="点击上传身份证正面">
+                       <br/><br/>
+                       <p>点击上传身份证背面</p>
+                       <input type="file" name="headImgUrlFile" id="file2" value="点击上传身份证背面">
+                   </div>
+                   <div class="sfz-img"><br/><br/>
+                       <p class="p1">*身份证模板示意图</p>
+                       <img src="images/sfzmb.png">
+                   </div>
+               </div>
+               <div class="row">
+                   <a href="javascript:" id="submitBtn" class="btn" target="_self">提交申请</a>
+               </div>
+               <div class="b-text">
+                   <p>审核通过后，我们将以<a>短信</a>的形式通知您。</p>
+                   <p>咨询电话：400-016-7117</p>
+               </div>
+           </div>
+       </div>
+     </form>  
+    </div>
+</div>
+
+<script>
+	function IdentityCodeValid(code) { 
+		var city={11:"北京",12:"天津",13:"河北",14:"山西",15:"内蒙古",21:"辽宁",22:"吉林",23:"黑龙江 ",31:"上海",32:"江苏",33:"浙江",34:"安徽",35:"福建",36:"江西",37:"山东",41:"河南",42:"湖北 ",43:"湖南",44:"广东",45:"广西",46:"海南",50:"重庆",51:"四川",52:"贵州",53:"云南",54:"西藏 ",61:"陕西",62:"甘肃",63:"青海",64:"宁夏",65:"新疆",71:"台湾",81:"香港",82:"澳门",91:"国外 "};
+	var tip = "";
+	var pass= true;
+	
+	 if(!code || !/^\d{6}(18|19|20)?\d{2}(0[1-9]|1[12])(0[1-9]|[12]\d|3[01])\d{3}(\d|X)$/i.test(code)){
+//		  tip = "身份证号格式错误";
+		pass = false;
+	  }
+	
+	 else if(!city[code.substr(0,2)]){
+//		  tip = "身份证号错误";
+		pass = false;
+	  }
+	  else{
+	  //18位身份证需要验证最后一位校验位
+	if(code.length == 18){
+	  code = code.split('');
+	  //∑(ai×Wi)(mod 11)
+	  //加权因子
+	var factor = [ 7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2 ];
+	  //校验位
+	var parity = [ 1, 0, 'X', 9, 8, 7, 6, 5, 4, 3, 2 ];
+	  var sum = 0;
+	  var ai = 0;
+	  var wi = 0;
+	  for (var i = 0; i < 17; i++)
+	  {
+	  ai = code[i];
+	  wi = factor[i];
+	  sum += ai * wi;
+	  }
+	  var last = parity[sum % 11];
+	  if(parity[sum % 11] != code[17]){
+//		  tip = "身份证号错误";
+	  pass =false;
+	  }
+	  }
+	  }
+//		  if(!pass) alert(tip);
+	  return pass;
+}
+    $(function(){
+        $('#getMessage').click(function(){
+            var a = $(this);
+            var num = 60;
+            var phone = $('input[name="phone"]').val().trim();
+		  	var myphreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
+			if (phone == "" || phone.length == 0) {
+				alert("请输入手机号码");
+		  		return false;
+			}else{
+				 if(!myphreg.test(phone))
+		          {
+					 alert('请输入有效的手机号码！');
+		               return false;
+		         }
+			}
+            $.ajax({
+			       cache: true,
+			       type: "POST",
+			       url:"/YPH/user/postCode",
+			       data:{phone:phone},
+			       timeout:5000,
+			       async: false,
+			       beforeSend:function(XMLHttpRequest){
+			       },
+			       success: function (data){
+						  if(a.hasClass('getIng')){
+			                //ajax成功后执行
+			                $("input[name=phone]").val(phone);
+			                var resend = setInterval(function(){
+			                    num--;
+			                    if(num > 0){
+			                        a.css({
+			                            'color':'#999',
+			                            'border':'1px #999 solid'
+			                        });
+			                        a.html(num+'重新获取验证码').removeClass('getIng');
+			
+			                    }else{
+			                        clearInterval(resend);
+			                        a.css({
+			                            'color':'#5C5757',
+			                            'border':'1px #5C5757 solid'
+			                        });
+			                        a.html('重新获取验证码').addClass('getIng')
+			                    }
+			                },1000);
+			            }
+			            
+			       },
+			       error: function () {
+			         alert("服务器或者网络错误");
+			       }
+			});
+            
+        });
+        $("#toPostMsg").click(function(){
+        	var phone = $('input[name="phone"]').val().trim();
+		  	var myphreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
+			if (phone == "" || phone.length == 0) {
+				alert("请输入手机号码");
+		  		return false;
+			}else{
+				 if(!myphreg.test(phone))
+		          {
+					 alert('请输入有效的手机号码！');
+		               return false;
+		         }
+			}
+        	var checkCode = $('input[name="checkCode"]').val().trim();
+			if (checkCode == "" || checkCode.length == 0) {
+				alert("请输入验证码");
+		  		return false;
+			}
+			$.ajax({
+			       cache: true,
+			       type: "POST",
+			       url:"/YPH/user/checkPhoneCode",
+			       data:{phone:phone,checkCode:checkCode},
+			       timeout:5000,
+			       async: false,
+			       beforeSend:function(XMLHttpRequest){
+			       },
+			       success: function (data){
+						  data = parseInt(data);
+				       	  if(data==1){
+							  $("#postCode").css("display","none");
+							  $("#postMsg").css("display","block");
+						  }else if(data==2){
+						  	  alert("验证码错误！");
+						  }
+			       },
+			       error: function () {
+			         alert("服务器或者网络错误");
+			       }
+			});
+        });
+        $("#submitBtn").click(function(){
+        	var name = $('input[name="name"]').val().trim();
+        	if (name == "" || name.length == 0) {
+				alert("请输入店铺名称");
+		  		return;
+			}
+        	var shopDes = $('textarea[name="shopDes"]').val().trim();
+        	if (shopDes == "" || shopDes.length == 0) {
+				alert("请输入店铺简介");
+		  		return;
+			}
+        	var phone = $('input[name="userPhone"]').val().trim();
+		  	var myphreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
+			if (phone == "" || phone.length == 0) {
+				alert("请输入联系人手机号码");
+		  		return false;
+			}else{
+				 if(!myphreg.test(phone))
+		          {
+					 alert('请输入有效的手机号码！');
+		               return false;
+		         }
+			}
+			var realName = $('input[name="realName"]').val().trim();
+			if (realName == "" || realName.length == 0) {
+				alert("请输入姓名");
+		  		return false;
+			}
+			var card = $('input[name="card"]').val().trim();
+			if (card == "" || card.length == 0) {
+				alert("请输入身份证号");
+		  		return false;
+			}else{
+				if(!IdentityCodeValid(card)){
+					alert("请输入正确的身份证号");
+		  			return false;
+				}
+			}
+			var account = $('input[name="account"]').val().trim();
+			if (account == "" || account.length == 0) {
+				alert("请输入银行卡号");
+		  		return false;
+			}
+			var bank = $('input[name="bank"]').val().trim();
+			if (bank == "" || bank.length == 0) {
+				alert("请输入开户行");
+		  		return false;
+			}
+			var file2 = $('input[id="file2"]').val().trim();
+			var file1 = $('input[id="file1"]').val().trim();
+			if (file2 == "" || file2.length == 0||file1 == "" || file1.length == 0) {
+				alert("请上传身份证");
+		  		return false;
+			}
+			var formData = new FormData($( "#shopForm" )[0]);
+			$.ajax({
+			       cache: true,
+			       type: "POST",
+			       url:"/YPH/user/replyShop",
+			       data:formData,
+			       timeout:5000,
+			       async: false,
+			       processData: false,  // 告诉jQuery不要去处理发送的数据
+			       contentType: false,
+			       beforeSend:function(XMLHttpRequest){
+			       },
+			       success: function (data){
+			       	  data = parseInt(data);
+			       	  if(data==1){
+						  alert("提交成功，我们会在一个工作日内审核您的请求！");
+					  }else if(data==2){
+					  	  alert("验证码错误！");
+					  }else if(data==3){
+					  	  alert("您已有店铺或正在审核中！请勿重复提交！");
+					  }else if(data==4){
+					  	  alert("未找到此推荐人，请核实后重新填写！");
+					  }else if(data==5){
+					  	  alert("该手机已经被使用，请重新填写！");
+					  }
+			       },
+			       error: function () {
+			         alert("服务器或者网络错误");
+			       }
+			});
+        });
+    });
+</script>
+<!--底部页脚-->
+<div class="footer">
+    <div class="container">
+        <p>善业众邦 · 益拍行 京ICP备17027801号</p>
+        <p>
+            <span>版权所有 © 2016 www.syyph.com 保留所有权利</span><span>善业众邦（北京）信息科技发展有限公司</span><span>电话：010-8769-0877
+</span>
+        </p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+.slide{
+    position: relative;
+    max-width: 640px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.slide:after{
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 33.3%;/*图片比例宽1:0.33.*/
+
+}
+.goods-info .banner .slide:after{
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 100%;/*图片比例宽1:1*/
+
+}
+.slide ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+.slide li{
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.slide li:first-child{
+    z-index: 1;
+}
+.slide li img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border: none;
+    height: auto;
+    max-width: 640px;
+    text-align: center;
+}
+
+.goods-info .banner .slide .dot{
+    position: absolute;
+    bottom: 10px;
+    font-size: 0;
+}
+.slide .dot{
+    position: absolute;
+    bottom: 5px;
+    font-size: 0;
+}
+.slide .dot span{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin-left: 5px;
+    border: 1px solid #dc214c;
+    border-radius: 50%;
+}
+.slide .dot .cur{
+    background-color: #dc214c;
+}
